@@ -20,6 +20,6 @@ public class ObjectSpawner : MonoBehaviour
     void SpawnTriangle()
     {
         spawnObstaclePosition = new Vector3(0, 0, spawnObstaclePosition.z + spawnDistance);
-        Instantiate (trianglePrefabs [(0)], spawnObstaclePosition, Quaternion.identity);
+        Instantiate (trianglePrefabs [(Random.Range(0, trianglePrefabs.Length))], spawnObstaclePosition, Quaternion.identity);
     }
 }

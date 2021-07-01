@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 7612752974238111891}
   m_Layer: 0
   m_Name: Triangles_a
-  m_TagString: Untagged
+  m_TagString: triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
