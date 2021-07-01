@@ -15,7 +15,6 @@ public class Score : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("collider is working");
         if (other.gameObject.tag == "scoreup")
         {
             score++;
