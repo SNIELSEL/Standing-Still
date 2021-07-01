@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5874492109911095876}
   m_Layer: 0
   m_Name: rock_d (2)
-  m_TagString: Untagged
+  m_TagString: triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967294
@@ -86,7 +86,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835321258355501936}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.687477, y: 1.267766, z: 0.719136}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 6240435001207625853}
   m_Layer: 0
   m_Name: rock_d (1)
-  m_TagString: Untagged
+  m_TagString: triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967294
@@ -177,7 +177,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2315419476718623158}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.687477, y: 1.267766, z: 0.719136}
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 2160126923698954197}
   m_Layer: 0
   m_Name: rock_d (4)
-  m_TagString: Untagged
+  m_TagString: triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967294
@@ -312,7 +312,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5184284726035200263}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.687477, y: 1.267766, z: 0.719136}
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 5775426116416160266}
   m_Layer: 0
   m_Name: rock_d (5)
-  m_TagString: Untagged
+  m_TagString: triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967294
@@ -403,7 +403,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6087343738470772304}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.687477, y: 1.267766, z: 0.719136}
@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 6807767648724906537}
   m_Layer: 0
   m_Name: rock_d (3)
-  m_TagString: Untagged
+  m_TagString: triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967294
@@ -494,7 +494,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7278416709033704355}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.687477, y: 1.267766, z: 0.719136}
@@ -508,6 +508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3751728365682208740}
+  - component: {fileID: 4068751951851434342}
   m_Layer: 0
   m_Name: RockWall_b
   m_TagString: triangle
@@ -536,6 +537,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4068751951851434342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437162273469824016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a263a195e5116234a909cf159ca43e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9064983479298205969
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +563,7 @@ GameObject:
   - component: {fileID: 2793162795180620373}
   m_Layer: 0
   m_Name: rock_d
-  m_TagString: Untagged
+  m_TagString: triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967294
@@ -622,7 +635,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9064983479298205969}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.687477, y: 1.267766, z: 0.719136}

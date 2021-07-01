@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public float PlayerSpeed = 500;
     public float directionalspeed = 20;
+    public AudioClip scoreUp;
+    public AudioClip damage;
 
     void Start()
     {
@@ -25,6 +27,18 @@ public class Player : MonoBehaviour
         if (Input.touchCount > 0)
         {
             transform.position = new Vector3(touch.x, transform.position.y, transform.position.z);
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "scoreup")
+        {
+            GetComponent<AudioSource>().PlayOneShot(scoreUp, 1.0f);
+        }
+
+        if (other.gameObject.tag == "triangle")
+        {
+            GetComponent<AudioSource>().PlayOneShot(damage, 1.0f);
         }
     }
 }

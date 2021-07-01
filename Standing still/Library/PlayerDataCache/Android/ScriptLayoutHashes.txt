@@ -175,7 +175,7 @@ e6d75f1a9bc0c6f7085df0baa077e688 Cinemachine.dll:Cinemachine.CinemachineGroupCom
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 b639d97cb780d0d99a2bfb3ad1935732 Cinemachine.dll:Cinemachine.CinemachineMixingCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.TMP_DigitValidator
-4efd0f1d7d6a8d1855159759329a0bdd Assembly-CSharp.dll:.Player
+2eac158a0e2ce0b2f5dc01c0db920c23 Assembly-CSharp.dll:.Player
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 c4117cf32d2e7797e9e05272a419cd6e Cinemachine.dll:Cinemachine.Timeline.CinemachineShot
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -232,3 +232,7 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 71bb6a6b6c8f052f948db64c7dd3ca4f Cinemachine.dll:Cinemachine.CinemachineHardLockToTarget
 94a6212bc97ed891bf46c9c21a0658cc Cinemachine.dll:Cinemachine.CinemachineBasicMultiChannelPerlin
 2792936179724025482dc04d68a47ca7 Cinemachine.dll:Cinemachine.CinemachineClearShot
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.App_Initialize
+20240431c815058690a3ba9bdfb91802 Assembly-CSharp.dll:.LookCamera
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LevelGen
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Destroyer
