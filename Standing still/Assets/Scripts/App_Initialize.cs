@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Advertisements;
+using UnityEngine.UI;
+
 public class App_Initialize : MonoBehaviour
 {
     public GameObject InMenuUi;
     public GameObject InGameUI;
     public GameObject gameOverUI;
+    public GameObject adButton;
     public GameObject player;
     private bool hasGameStarted = false;
+    private bool hasSeenRewardedAd = false;
 
     private void Awake()
     {
@@ -53,6 +58,11 @@ public class App_Initialize : MonoBehaviour
         InMenuUi.gameObject.SetActive(false);
         InGameUI.gameObject.SetActive(false);
         gameOverUI.gameObject.SetActive(true);
+        if (hasSeenRewardedAd == true)
+        {
+            adButton.GetComponent<Image>().color = new Color(1, 1, 1, 0.5f);
+            adButton.GetComponent<Button>().enabled = false;
+        }
     }
 
     public void RestartGame()
@@ -60,11 +70,6 @@ public class App_Initialize : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void showAd()
-    {
-        //FIX LATER
-        StartCoroutine(StartGame(1.0f));
-    }
 
     IEnumerator StartGame(float waitTime)
     {

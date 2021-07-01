@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-F:/github game repo/Standing-Still/builds/Standing still movement build.apk
+F:/github game repo/Standing-Still/builds/Standing still.apk
 SceneListBegin?
 Assets/Scenes/main.unity
 SceneListEnd?
@@ -23,6 +23,7 @@ a2113831d3323f931007e1b3812dc814 Cinemachine.dll:Cinemachine.CinemachineFollowZo
 d227987243593b32ae57394d06018643 Cinemachine.dll:Cinemachine.CinemachineFixedSignal
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 5c32d90a0e3739c527c4b0f3e76c566d Assembly-CSharp.dll:.ObjectSpawner
+20240431c815058690a3ba9bdfb91802 Assembly-CSharp.dll:.LookCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.TMP_PhoneNumberValidator
 c80bc562de10fdbf8b2e9bcb89d80421 Cinemachine.dll:Cinemachine.CinemachineCollisionImpulseSource
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -134,8 +135,10 @@ e1bbf0ab858085e38fae6b12ebbdcd35 Cinemachine.dll:Cinemachine.Timeline.Cinemachin
 0769963ca05483a9f7e743b9118b3fba Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 1cdde0c3d8008dfe81d27e4c955d4fe7 Cinemachine.dll:Cinemachine.CinemachineFramingTransposer
 47930f3b40e24ef5b3b5e3d9ada7097a Assembly-CSharp.dll:TMPro.Examples.Benchmark01
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Destroyer
 3c2b11a8027702f7fef4a819d8b9191a Cinemachine.dll:Cinemachine.CinemachinePOV
-4e7197b9d8bee117e833616fe8ad5823 Assembly-CSharp.dll:.Score
+270330c6d3727077c05e75639fe645fb Assembly-CSharp.dll:.Score
+6a471ea23f7f8f9a739e99ce28dc4a80 Assembly-CSharp.dll:.SampleControl
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 6987e53805e8a29a4a553f91e9a02ba2 Cinemachine.dll:Cinemachine.CinemachineOrbitalTransposer
 68ab7276019207d3f463a08f9ff97ff5 Cinemachine.dll:Cinemachine.CinemachineTriggerAction
@@ -149,6 +152,7 @@ e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexJitter
 71bb6a6b6c8f052f948db64c7dd3ca4f Cinemachine.dll:Cinemachine.CinemachinePipeline
 694d20920c0e41f567e119f7159a3644 Cinemachine.dll:Cinemachine.CinemachinePath
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
+c96794d7c56255c76199e6f87d02574a Assembly-CSharp.dll:.App_Initialize
 3cae62e09a50c5d5aae8d0536b3d8fde Assembly-CSharp.dll:.ChatController
 56df1fa7cea034df9863fe5a24200a32 Cinemachine.dll:Cinemachine.CinemachineTargetGroup
 e244702e0dc05782229aa524e4d757f5 Assembly-CSharp.dll:TMPro.Examples.TMP_ExampleScript_01
@@ -175,7 +179,7 @@ e6d75f1a9bc0c6f7085df0baa077e688 Cinemachine.dll:Cinemachine.CinemachineGroupCom
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 b639d97cb780d0d99a2bfb3ad1935732 Cinemachine.dll:Cinemachine.CinemachineMixingCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.TMP_DigitValidator
-2eac158a0e2ce0b2f5dc01c0db920c23 Assembly-CSharp.dll:.Player
+e6c0cf81c791f12121828a0891da719c Assembly-CSharp.dll:.Player
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 c4117cf32d2e7797e9e05272a419cd6e Cinemachine.dll:Cinemachine.Timeline.CinemachineShot
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -226,13 +230,10 @@ c12f6929b034322884ced721fca65b10 Assembly-CSharp.dll:TMPro.Examples.TextMeshProF
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 0784d4fd5b93bd75440d01eb2fac4233 Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LevelGen
 8b1fe5dfdcf943fb3b72506b9f19335f Assembly-CSharp.dll:.EnvMapAnimator
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 31aaf1b0d478f69639405ed5e51607b0 Cinemachine.dll:Cinemachine.CinemachineBrain
 71bb6a6b6c8f052f948db64c7dd3ca4f Cinemachine.dll:Cinemachine.CinemachineHardLockToTarget
 94a6212bc97ed891bf46c9c21a0658cc Cinemachine.dll:Cinemachine.CinemachineBasicMultiChannelPerlin
 2792936179724025482dc04d68a47ca7 Cinemachine.dll:Cinemachine.CinemachineClearShot
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.App_Initialize
-20240431c815058690a3ba9bdfb91802 Assembly-CSharp.dll:.LookCamera
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LevelGen
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Destroyer
