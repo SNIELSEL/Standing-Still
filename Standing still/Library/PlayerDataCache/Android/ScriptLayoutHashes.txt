@@ -230,3 +230,4 @@ c0201dbecd85f700bcdff493a272631d Cinemachine.dll:Cinemachine.CinemachineImpulseS
 94a6212bc97ed891bf46c9c21a0658cc Cinemachine.dll:Cinemachine.CinemachineBasicMultiChannelPerlin
 2792936179724025482dc04d68a47ca7 Cinemachine.dll:Cinemachine.CinemachineClearShot
 99bb8304bbff0d1030fc5df7a453f69a Assembly-CSharp.dll:.CameraFollow
+bfdf060b2603148594c3c06838d1c1db Assembly-CSharp.dll:.Score

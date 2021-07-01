@@ -1,4 +1,4 @@
-#Thu Jul 01 01:04:46 CEST 2021
+#Thu Jul 01 02:16:03 CEST 2021
 base.0=F\:\\github game repo\\Standing-Still\\Standing still\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex
