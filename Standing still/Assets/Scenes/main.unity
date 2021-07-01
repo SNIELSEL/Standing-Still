@@ -997,7 +997,7 @@ MonoBehaviour:
   - {fileID: 7489976714952138255, guid: 776c3d2c1fd85f44bb47eec48731f805, type: 3}
   - {fileID: 7437162273469824016, guid: 235078bca0f9ad741bed25e52c31a580, type: 3}
   - {fileID: 6322351503847279347, guid: 0b6455e100275ee4aa90953783be9c32, type: 3}
-  spawnDistance: 10
+  spawnDistance: 20
 --- !u!1 &1463912069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed9443ad59c178499fdcecfadce95ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerSpeed: 1000
+  PlayerSpeed: 1500
   directionalspeed: 20
 --- !u!114 &1829004919
 MonoBehaviour:
